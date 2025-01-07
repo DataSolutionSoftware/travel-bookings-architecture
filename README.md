@@ -1,6 +1,6 @@
 # Travel Booking Website Architecture Design
 
-The proposed architecture prioritises scalability, security, and performance to handle millions of search and booking requests. 
+The proposed architecture prioritises the  following key  pillars; performance scalability, speed,  reliability, flexibility, fault tolerance, observability, security, testing, and high availability to handle millions of search and booking requests. 
 
 The search mechanism leverages ElasticSearch for high-performance filtering, and Redis ensures fast caching. The architecture integrates modern frontend frameworks like React.js and backend APIs with GraphQL, enabling rich interactions and seamless user experiences. 
 
