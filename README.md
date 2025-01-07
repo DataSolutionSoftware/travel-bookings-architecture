@@ -6,6 +6,20 @@ The search mechanism leverages ElasticSearch for high-performance filtering, and
 
 Monitoring tools such as Prometheus and ELK provide reliability and observability for the system in production.
 
+## Data Flow
+
+Search APIs and Data Flow:
+
+i. API Gateway routes the request to the Search Service.
+
+ii. Search Service interacts with ElasticSearch for full-text and geo-spatial queries.
+
+iii. Redis Cache stores frequently accessed data to reduce database load.
+
+iv. Real-time updates are handled using WebSockets or GraphQL Subscriptions.
+
+
+
 ## lmplementation:
 
 https://github.com/kukuu/integration/blob/main/travel-bookings-architecture.md
